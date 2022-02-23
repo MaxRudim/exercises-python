@@ -12,7 +12,7 @@ if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
     print('Estes segmentos podem formar um triâgulo... ', end='')
     if r1 == r2 == r3:
         print('EQUILÁTERO.')
-    elif r1 != r2 != r3:
+    elif r1 != r2 != r3 != r1:
         print('ESCALENO.')
     else:
         print('ISÓSCELES.')
