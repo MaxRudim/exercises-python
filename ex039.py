@@ -13,4 +13,5 @@ if age < 18:
 elif age == 18:
     print('Bem vindo, soldado!')
 else:
-    print(f'Sua idade excedeu, em {age - 18} a idade de alistamento militar!')
+    print(f'Sua idade excedeu, em {age - 18} anos, \
+a idade de alistamento militar obrigatório!')
