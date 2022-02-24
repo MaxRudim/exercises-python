@@ -16,7 +16,8 @@ frase[9:21]  # Retorno: 'Vídeo Python'
 frase[9:21:2]  # Retorno: 'VdoPto'
 #  Obs acima: pega o elemento de índice 9 até o 21
 #  (frase tem 21 caracteres, o ultimo não conta)
-#  e pula de 2 em 2
+#  e pula de 2 em 2. Se colocar -1 no final,
+#  roda a frase em ordem decrescente, ex frase[::-1]
 
 frase[:5]  # Retorno: 'Curso'
 #  Obs acima: quando não há elementos antes do ':',
