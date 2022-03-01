@@ -3,6 +3,7 @@ frase_list = ['C', 'u', 'r', 's', 'o', ' ', 'e', 'm',
               ' ', 'V', 'í', 'd', 'e', 'o', ' ', 'P', 'y', 't', 'h', 'o', 'n']
 
 # -- Fatiamento -- #
+# Obs. TAMBÉM É APLICÁVEL ÀS TUPLAS.
 
 frase[9]  # Retorno:'V'
 
