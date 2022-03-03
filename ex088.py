@@ -12,7 +12,11 @@ for element in range(1, (games + 1)):
     sleep(1)
     for num in range(0, 6):
         number = randint(1, 60)
+        if number in game:
+            number = randint(1, 60)
         game.append(number)
+
+    game.sort()
 
     print(f'Jogo {element}: {game}')
 
