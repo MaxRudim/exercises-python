@@ -5,12 +5,13 @@ print('Extraindo dados de uma lista.')
 print('-=' * 40)
 
 numbers = list()
-go_on = 'S'
 
-while go_on != 'N':
+while True:
     num = int(input('Digite um número inteiro e positivo: '))
     numbers.append(num)
     go_on = str(input('Voce deseja continuar? [S/N] ')).strip().upper()
+    if go_on in 'Nn':
+        break
 
 print('\n')
 print('-' * 40)
