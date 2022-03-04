@@ -28,9 +28,6 @@ da sua contratação: '))
     for k, v in worker.items():
         print(f'{k.lower()} tem o valor {v}')
 
-    print('Obs.: Se a aposentadoria tiver valor negativo, \
-você já poderia se aposentar.')
-
 elif worker['Carteira de Trabalho'] == 0:
 
     for k, v in worker.items():
